@@ -9,7 +9,7 @@ pipeline {
                 url: 'https://github.com/Iamaskh/fabricChainCode.git'
                   }
       }
-   }
+   
 
 	stage('Code Quality') {
                    steps {
@@ -21,5 +21,6 @@ pipeline {
                                }
                            }
                         }
+}
 }
 
